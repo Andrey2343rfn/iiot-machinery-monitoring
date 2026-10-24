@@ -41,6 +41,11 @@ graph TD
     end
 
 ```
+| Назва пристрою | Тип сутності | MQTT Топік | Параметри / Канали |
+| :--- | :--- | :--- | :--- |
+| **Machine 01** | Generic MQTT Thing | `iiotequip/machinery/machine_01/telemetry` | Vibration, Temperature, Current, Parts, Status |
+| **Machine 01 Status** | State Topic | `iiotequip/machinery/machine_01/status` | Device Status (`online` / `offline`) |
+| **Machine 01 Command**| Command Topic | `iiotequip/machinery/machine_01/set` | Remote Control / Stop command |
 
 3. Обґрунтування місця обробки даних (Edge / Fog / Cloud)
 У даному проєкті реалізовано гібридну архітектуру на рівні Edge (Периферія) та Fog (Туманний обчислювальний шар):
@@ -52,7 +57,4 @@ Fog-рівень (Локальний сервер / Docker): Брокер Mosqui
 4. Обґрунтування вибору протоколу MQTT
 Для Варіанту 4 було обрано MQTT порівняно з іншими протоколами з таких причин:
 На відміну від HTTP (який працює за запит-відповідь і створює зайве навантаження через постійне опитування) або CoAP, MQTT використовує легковагову модель видачі-підписки (Publish-Subscribe), має мінімальний розмір заголовка пакета (від 2 байт) і підтримує постійне з'єднання по TCP. Порівняно з бездротовими мережевими протоколами на кшталт Zigbee чи LoRaWAN, які вимагають специфічного радіообладнання (шлюзів, трансиверів), MQTT ідеально підходить для IP-орієнтованих віртуальних симуляторів та контейнеризованих середовищ, забезпечуючи надійну доставку повідомлень у реальному часі.
-Topic,Напрямок,Опис payload
-iiotequip/machinery/machine_01/telemetry,Publisher → Broker,"JSON-об'єкт з показниками (value, temperature, current, parts, status)"
-iiotequip/machinery/machine_01/status,Publisher → Broker,Статус життєздатності пристрою (online / offline)
-iiotequip/machinery/machine_01/set,Broker → Publisher,"Команди керування станком (наприклад, зупинка)"
+
