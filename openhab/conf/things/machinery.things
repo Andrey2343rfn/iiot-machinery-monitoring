@@ -1,0 +1,12 @@
+Bridge mqtt:broker:mosquitto "MQTT Broker" [ host="mosquitto", port=1883, secure=false, username="machine_01", password="machine123" ] {
+    Thing topic machine_01 "Machine 01" {
+        Channels:
+            Type number : vibration "Vibration" [ stateTopic="iiotequip/machinery/machine_01/telemetry", transformationPattern="JSONPATH:$.value" ]
+            Type number : temperature "Temperature" [ stateTopic="iiotequip/machinery/machine_01/telemetry", transformationPattern="JSONPATH:$.temperature" ]
+            Type number : current "Current" [ stateTopic="iiotequip/machinery/machine_01/telemetry", transformationPattern="JSONPATH:$.current" ]
+            Type number : parts "Parts" [ stateTopic="iiotequip/machinery/machine_01/telemetry", transformationPattern="JSONPATH:$.parts" ]
+            Type string : status "Status" [ stateTopic="iiotequip/machinery/machine_01/telemetry", transformationPattern="JSONPATH:$.status" ]
+            Type string : dev_status "Device Status" [ stateTopic="iiotequip/machinery/machine_01/status" ]
+            Type string : set_command "Command" [ commandTopic="iiotequip/machinery/machine_01/set" ]
+    }
+}

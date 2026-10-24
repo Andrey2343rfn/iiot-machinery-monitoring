@@ -1,0 +1,322 @@
+2026-10-24 12:47:34.755 [INFO ] [org.openhab.core.Activator          ] - Starting openHAB 5.2.1 (Release Build)
+2026-10-24 12:47:34.974 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/auth/token's Observer 
+2026-10-24 12:47:34.974 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/assets/manifest-CKPzpPDv.json's Observer 
+2026-10-24 12:47:34.985 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/auth/logout's Observer 
+2026-10-24 12:47:34.991 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Europe/Kiev'.
+2026-10-24 12:47:34.991 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'ru'.
+2026-10-24 12:47:34.999 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/'s Observer 
+2026-10-24 12:47:35.006 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/auth's Observer 
+2026-10-24 12:47:36.702 [WARN ] [.core.internal.folder.FolderObserver] - Directory 'scripts' does not exist in '/openhab/conf'. Please check your configuration settings!
+2026-10-24 12:47:36.703 [WARN ] [.core.internal.folder.FolderObserver] - Directory 'persistence' does not exist in '/openhab/conf'. Please check your configuration settings!
+2026-10-24 12:47:36.703 [WARN ] [.core.internal.folder.FolderObserver] - Directory 'sitemaps' does not exist in '/openhab/conf'. Please check your configuration settings!
+2026-10-24 12:47:36.705 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading DSL model 'machinery.items'
+2026-10-24 12:47:36.981 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading DSL model 'machinery.things'
+2026-10-24 12:47:37.596 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/sw.js's Observer 
+2026-10-24 12:47:38.517 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/'s Observer 
+2026-10-24 12:47:38.829 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2026-10-24 12:47:38.874 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading DSL model 'machinery.rules'
+2026-10-24 12:47:38.948 [WARN ] [el.core.internal.ModelRepositoryImpl] - DSL model 'machinery.rules' has errors, therefore ignoring it: [18,6]: mismatched input '<EOF>' expecting 'end'
+2026-10-24 12:47:39.162 [WARN ] [transform.FileTransformationProvider] - Could not list files in '/openhab/conf/transform', transformation configurations might be missing: /openhab/conf/transform
+2026-10-24 12:47:39.390 [WARN ] [e.internal.VoiceManagerConfiguration] - No configuration description found for system:voice, unable to apply defaults!
+2026-10-24 12:47:40.229 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 2753 ms.
+2026-10-24 12:47:40.405 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'mosquitto' with clientid 2aae38bd-e8ac-4840-9020-d431b48e0d81
+2026-10-24 12:47:43.092 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: try again in 57 seconds. Reconnecting after 6242 ms.
+2026-10-24 12:47:45.201 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2026-10-24 12:47:49.449 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: try again in 51 seconds. Reconnecting after 5248 ms.
+2026-10-24 12:47:50.419 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'mosquitto'. Next attempt in 60000ms
+2026-10-24 12:47:50.443 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'mosquitto' with clientid 2aae38bd-e8ac-4840-9020-d431b48e0d81
+2026-10-24 12:47:54.855 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: try again in 45 seconds. Reconnecting after 10699 ms.
+2026-10-24 12:48:05.682 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: try again in 35 seconds. Reconnecting after 41185 ms.
+2026-10-24 12:48:47.000 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 12:48:50.446 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'mosquitto'. Next attempt in 60000ms
+2026-10-24 12:48:50.457 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'mosquitto' with clientid 2aae38bd-e8ac-4840-9020-d431b48e0d81
+2026-10-24 12:49:47.140 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 12:49:50.459 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'mosquitto'. Next attempt in 60000ms
+2026-10-24 12:49:50.465 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'mosquitto' with clientid 2aae38bd-e8ac-4840-9020-d431b48e0d81
+2026-10-24 12:50:47.277 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 12:50:50.466 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'mosquitto'. Next attempt in 60000ms
+2026-10-24 12:50:50.474 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'mosquitto' with clientid 2aae38bd-e8ac-4840-9020-d431b48e0d81
+2026-10-24 12:51:47.408 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 12:51:50.476 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'mosquitto'. Next attempt in 60000ms
+2026-10-24 12:51:50.486 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'mosquitto' with clientid 2aae38bd-e8ac-4840-9020-d431b48e0d81
+2026-10-24 12:52:04.575 [WARN ] [uth.internal.AbstractAuthPageServlet] - Authentication failed from 192.168.65.1: CSRF check failed
+2026-10-24 12:52:17.065 [WARN ] [uth.internal.AbstractAuthPageServlet] - Authentication failed from 192.168.65.1: User not found: machine_01
+2026-10-24 12:52:22.998 [WARN ] [.io.rest.auth.internal.TokenResource] - PKCE verification failed
+2026-10-24 12:52:23.001 [WARN ] [.io.rest.auth.internal.TokenResource] - Token issuing failed: invalid_grant
+2026-10-24 12:52:47.543 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 12:52:50.488 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'mosquitto'. Next attempt in 60000ms
+2026-10-24 12:52:50.495 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'mosquitto' with clientid 2aae38bd-e8ac-4840-9020-d431b48e0d81
+2026-10-24 12:53:27.143 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.150 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.151 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.151 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.152 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.152 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.165 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.166 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.166 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.167 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.167 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.167 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.168 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.169 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.169 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.169 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.170 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.170 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.171 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.171 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.174 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.175 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.175 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.176 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.177 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.177 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.177 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.181 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.181 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.182 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.182 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.183 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.183 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.183 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.184 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.184 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.184 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.184 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.185 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.185 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.185 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.185 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.185 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.186 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.186 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.186 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.186 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.187 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.187 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.187 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.188 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.188 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.188 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.189 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.189 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.189 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.190 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.191 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.191 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.191 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.191 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.191 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.191 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.191 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.192 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.192 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.192 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.192 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.192 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.192 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.193 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.199 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.200 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.201 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.201 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.201 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.202 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.202 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.202 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.202 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.203 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.203 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.203 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.204 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.204 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.205 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.205 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.205 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.205 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.206 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.206 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.207 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.208 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.208 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.209 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.209 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.210 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.210 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.211 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.212 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.212 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.213 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.213 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.214 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.216 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.217 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.217 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.218 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.218 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.218 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.219 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.219 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.220 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.220 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.221 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.221 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.221 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.222 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.223 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.223 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.224 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.225 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.225 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.226 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.226 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.227 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.227 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.228 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.229 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.229 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.230 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.230 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.231 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.231 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.232 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.233 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.233 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.234 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.235 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.236 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.236 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.236 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.237 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.237 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.237 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.239 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.240 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.241 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.241 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.241 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.241 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.242 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.242 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.242 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.243 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.243 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.244 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.244 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.245 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.245 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.246 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.246 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.247 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.248 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.251 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.254 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.254 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.255 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.255 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.255 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.256 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.256 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.257 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.258 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.259 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.260 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.260 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.261 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.262 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.263 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.263 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.264 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.265 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.265 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.265 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.266 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.266 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.266 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.267 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.267 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.267 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.268 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.268 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.268 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.271 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.272 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.272 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.272 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:27.273 [WARN ] [ab.core.internal.events.EventHandler] - The queue for a subscriber of type 'class org.openhab.core.io.monitor.internal.EventLogger' exceeds 5000 elements. System may be unstable.
+2026-10-24 12:53:47.673 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 12:55:15.518 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 13:11:47.503 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 13:12:47.637 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 13:29:19.558 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 13:47:06.487 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:05:08.708 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:21:44.827 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:22:44.968 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:38:48.872 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:39:49.022 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:40:49.164 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:41:49.293 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:42:49.440 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:43:49.576 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:44:49.705 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:45:49.835 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:46:49.961 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:47:50.101 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:48:50.226 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:49:50.364 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:50:50.498 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:51:50.635 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:52:50.765 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:53:50.888 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:54:51.030 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:55:51.155 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:56:51.294 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:57:51.440 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:58:51.581 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 14:59:51.709 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:00:51.841 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:01:51.970 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:02:52.119 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:03:52.248 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:20:42.275 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:27:45.891 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:28:46.023 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:29:46.156 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:30:46.282 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:31:46.410 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:32:46.534 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:33:46.663 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:34:46.790 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:35:46.930 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:36:47.076 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:37:47.201 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 15:38:12.782 [WARN ] [openhab.core.io.rest.auth.AuthFilter] - Unauthorized API request from 192.168.65.1: Error while processing JWT token
+2026-10-24 15:38:12.796 [WARN ] [openhab.core.io.rest.auth.AuthFilter] - Unauthorized API request from 192.168.65.1: Error while processing JWT token
+2026-10-24 16:12:11.995 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:49:19.356 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:50:19.499 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:51:19.636 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:52:19.768 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:53:19.901 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:54:20.036 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:55:20.165 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:56:20.296 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:57:20.423 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:58:20.551 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 16:59:20.685 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 17:00:20.823 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 17:01:20.969 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 17:02:21.112 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 17:03:21.242 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 17:04:21.375 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 17:05:21.518 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 17:06:21.642 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 17:07:21.774 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 17:44:53.788 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 18:10:10.687 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 18:11:10.839 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 18:12:11.107 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 18:13:11.249 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.
+2026-10-24 18:14:11.495 [WARN ] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance: not authorized. Reconnecting after 60000 ms.

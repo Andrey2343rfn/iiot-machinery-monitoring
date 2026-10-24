@@ -1,0 +1,7 @@
+certs/*.key
+certs/*.csr
+certs/*.srl
+mosquitto/data/
+mosquitto/log/
+mosquitto/config/passwd
+.env

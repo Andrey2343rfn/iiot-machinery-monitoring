@@ -1,0 +1,54 @@
+{
+  "Andrey": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "Andrey",
+      "passwordHash": "PVUbQnJxPkqjyiiJMuosuTMRj8e+lphv8Zn8qDAO+aOlhfWCOMu9eHPJh24MoCK43mvsmX2kKx4PlvH8srS5tw\u003d\u003d",
+      "passwordSalt": "kpnGqn6sRYbZgtrqu2sKFBelWhEu03vL7UU+FMtu/XScPFN/SG2aX/V8ZTRgPFtjNbZWqAdQhz0/gj/xHTT65A\u003d\u003d",
+      "roles": [
+        "administrator"
+      ],
+      "pendingToken": {
+        "authorizationCode": "401843517c7347db879c9910f2645f36",
+        "clientId": "http://localhost:8080",
+        "redirectUri": "http://localhost:8080",
+        "scope": "admin",
+        "codeChallenge": "LgmvTOx6N2dayDDghdyfU4sAK8E2h5JUkAjAkIo-H3k",
+        "codeChallengeMethod": "S256"
+      },
+      "sessions": [
+        {
+          "sessionId": "35b569c2-a248-46c8-af99-d6f145290330",
+          "refreshToken": "eb38084be32d47308eda1d8ecfa0ba10",
+          "createdTime": "Oct 24, 2026, 12:16:03 PM",
+          "lastRefreshTime": "Oct 24, 2026, 12:28:50 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "c458f369-6b42-45f9-859a-99d176f3be56",
+          "refreshToken": "6e755d35dedd434f9bc5540c1eecabb9",
+          "createdTime": "Oct 24, 2026, 12:45:08 PM",
+          "lastRefreshTime": "Oct 24, 2026, 12:46:23 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "59801fd9-17cf-4ad7-89fa-845332d5cd09",
+          "refreshToken": "e59c33ec2b4444109ad74a591c6528b3",
+          "createdTime": "Oct 24, 2026, 12:47:43 PM",
+          "lastRefreshTime": "Oct 24, 2026, 4:30:05 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        }
+      ],
+      "apiTokens": []
+    }
+  }
+}

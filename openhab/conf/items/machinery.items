@@ -1,0 +1,7 @@
+Number Machine_Vibration "Вібрація [%.1f мм/с]" <temperature> { channel="mqtt:topic:mosquitto:machine_01:vibration" }
+Number Machine_Temperature "Температура [%.1f °C]" <temperature> { channel="mqtt:topic:mosquitto:machine_01:temperature" }
+Number Machine_Current "Струм [%.1f А]" <energy> { channel="mqtt:topic:mosquitto:machine_01:current" }
+Number Machine_Parts "Деталі [%d]" <chart> { channel="mqtt:topic:mosquitto:machine_01:parts" }
+String Machine_Status "Стан [%s]" <status> { channel="mqtt:topic:mosquitto:machine_01:status" }
+String Machine_DevStatus "Стьор мережі [%s]" <network> { channel="mqtt:topic:mosquitto:machine_01:dev_status" }
+String Machine_Cmd "Команда" <switch> { channel="mqtt:topic:mosquitto:machine_01:set_command" }

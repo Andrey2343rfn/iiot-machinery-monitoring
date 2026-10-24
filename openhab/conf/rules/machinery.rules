@@ -1,0 +1,18 @@
+rule "Vibration Alert"
+when
+    Item Machine_Vibration changed
+then
+    if ((Machine_Vibration.state as Number) > 5.0) {
+        Machine_Cmd.sendCommand('{"command": "EMERGENCY_STOP"}')
+    }
+end
+
+rule "Temperature Check"
+when
+    Item Machine_Temperature changed
+then
+    if (previousState !== null) {
+        if (((Machine_Temperature.state as Number) - (previousState as Number)) > 2.0) {
+            logInfo("machinery", "Warning: Check lubrication")
+        }
+    }
